@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*добавила .panel вместо body; 
+  уменьшила width c 1400 на 1300, чтобы не было скролла*/
+.panel {
+    width: 1300px;
+    height: 590px;
+    margin: 0 auto;
+}
+
+/*добавила margin-top*/
+.awesome {
+    margin-top: 107px;
+    margin-bottom: 80px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/*убрала margin-top*/
+.awesome h1 {
+    margin-bottom: 19px;
+    padding: 0;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.awesome p {
+    margin-top: 23px;
+    color: #86878B;
+}
+
+/*добавила черту с помощью div вместо картинки*/
+.orange__line {
+    border-top: 2px solid #FF8B38;
+    margin-left: 610px;
+    margin-right: 610px;  
+}
+
+.wrap {
+    width: 1140px;
+    height: 204px;
+    margin: 0 auto;
+}
+
+.block {
+    float: left;
+    width: 350px;
+    margin-right: 32px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+    text-align: center;
+}
+
+.wrap :last-child {
+    margin-right: 0px;
+}
+
+.block h2 {
+    margin-top: 29px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.picture {
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;  
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+} 
+
+/*добавила картинки с помощью background-свойств*/
+.lamp {
+    width: 70px;
+    height: 70px;
+    background-image: url("picture1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.keyboard {
+    width: 70px;
+    height: 70px;
+    background-image: url("picture2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lightning {
+    width: 70px;
+    height: 70px;
+    background-image: url("picture3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
